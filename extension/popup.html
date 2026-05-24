@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SafeHer</title>
+
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- HEADER -->
+
+    <section class="header">
+
+      <div class="logo-area">
+
+        <div class="logo-glow"></div>
+
+        <h1>SafeHer</h1>
+
+      </div>
+
+      <p class="subtitle">
+        IA Contra Violência Digital
+      </p>
+
+    </section>
+
+
+    <!-- STATUS -->
+
+    <section class="status-card">
+
+      <div class="status-dot"></div>
+
+      <div>
+        <h2>Proteção Ativa</h2>
+
+        <p>
+          O SafeHer está monitorando riscos digitais.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- ANALISADOR -->
+
+    <section class="analyzer">
+
+  <h3>
+    Ocorrências Detectadas
+  </h3>
+
+  <div id="detectedMessages" class="detected-messages">
+
+    <div class="empty-detected">
+      Nenhuma ocorrência detectada.
+    </div>
+
+  </div>
+
+  <button id="analyzeBtn">
+    Analisar ocorrência selecionada
+  </button>
+
+</section>
+
+
+    <!-- RESULTADO -->
+
+    <section id="resultBox" class="result-box hidden">
+
+      <span id="riskLevel" class="risk-level"></span>
+
+      <h3 id="riskTitle"></h3>
+
+      <p id="riskDescription"></p>
+
+      <div class="recommendation">
+
+        <strong>
+          Ação Recomendada
+        </strong>
+
+        <p id="recommendedAction"></p>
+
+      </div>
+
+    </section>
+
+    <section id="actionPanel" class="action-panel hidden">
+
+  <h3>Ações da SafeHer</h3>
+
+  <div class="recurrence-box">
+
+    <span id="senderStatus" class="sender-status yellow">
+      🟡 Atenção
+    </span>
+
+    <p id="recurrenceText">
+      Nenhuma recorrência identificada até o momento.
+    </p>
+
+  </div>
+
+  <div class="action-grid">
+
+    <button id="generateReportBtn">
+      Gerar relatório
+    </button>
+
+    <button id="blockGuideBtn">
+      Orientar bloqueio
+    </button>
+
+    <button id="denounceGuideBtn">
+      Orientar denúncia
+    </button>
+
+    <button id="markIgnoredBtn">
+      Ignorar ocorrência
+    </button>
+
+  </div>
+
+</section>
+
+
+    <!-- PROTEÇÃO -->
+
+    <section class="protection-mode">
+
+      <div>
+
+        <h3>
+          Modo Proteção Emocional
+        </h3>
+
+        <p>
+          Oculta automaticamente comentários agressivos.
+        </p>
+
+      </div>
+
+      <label class="switch">
+
+        <input type="checkbox" id="protectionToggle">
+
+        <span class="slider"></span>
+
+      </label>
+
+    </section>
+
+
+    <!-- HISTÓRICO -->
+
+    <section class="history">
+
+      <h3>Histórico de Ocorrências</h3>
+      <button id="clearHistoryBtn" class="clear-history-btn">
+        Limpar histórico
+      </button>
+
+      <ul id="historyList">
+
+        <li>Nenhuma ocorrência registrada.</li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- AJUDA -->
+
+   <!-- AJUDA -->
+
+<section class="help">
+
+  <h3>Apoio e Encaminhamento</h3>
+
+  <p class="support-intro">
+    Você não precisa enfrentar isso sozinha. A SafeHer também te conecta a canais de apoio emocional, jurídico e denúncia.
+  </p>
+
+  <div class="help-links">
+
+    <a href="https://www.gov.br/mulheres/pt-br/ligue180" target="_blank">
+       🟣 Ligue 180 — Apoio à mulher
+    </a>
+
+    <a href="https://cvv.org.br/" target="_blank">
+       💬 CVV 188 — Apoio emocional
+    </a>
+
+    <a href="https://cvv.org.br/chat/" target="_blank">
+      💜 Conversar com o CVV
+    </a>
+
+    <a href="https://new.safernet.org.br/denuncie" target="_blank">
+      🛡️ Denunciar violência digital
+    </a>
+
+    <a href="https://defensoria.rj.def.br/cidadao/nudem" target="_blank">
+      ⚖️ Apoio jurídico — NUDEM/RJ
+    </a>
+
+    <a href="https://www.gov.br/pt-br/servicos/registrar-ocorrencia-policial-online" target="_blank">
+      📄 Registrar BO Online
+    </a>
+
+  </div>
+
+</section>
+  </main>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>

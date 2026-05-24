@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "SafeHer",
+  "version": "1.0",
+  "description": "Extensão de proteção digital contra mensagens tóxicas, assédio online e violência virtual contra mulheres.",
+
+  "action": {
+    "default_title": "SafeHer - Proteção Digital",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "downloads"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["detector.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
