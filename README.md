@@ -1,91 +1,98 @@
 # SafeHer — Proteção Digital para Mulheres
 
-SafeHer é uma extensão Chrome criada para identificar mensagens ofensivas, ameaças, assédio, humilhação, ataques profissionais e preconceito em ambientes digitais.
+O SafeHer é uma extensão para Chrome criada para ajudar na identificação de situações de violência digital.
 
----
+A ideia surgiu a partir da percepção de que muitas mensagens ofensivas, ameaças, assédio e ataques em ambientes digitais podem ser difíceis de identificar ou até mesmo normalizados no dia a dia.
 
-# Objetivo
+O projeto busca facilitar esse reconhecimento e oferecer alguns recursos para registro e orientação.
 
-A ferramenta foi desenvolvida como protótipo acadêmico para apoiar mulheres na identificação de violência digital, oferecendo proteção emocional, registro de evidências e encaminhamento para canais de apoio.
+## O que o SafeHer faz
 
----
+* Identifica mensagens que podem apresentar conteúdo ofensivo ou ameaçador
+* Classifica o nível de risco
+* Identifica diferentes categorias de violência digital
+* Exibe alertas
+* Possui um modo de proteção emocional
+* Mantém um histórico das ocorrências
+* Permite o registro de evidências
+* Apresenta opções de apoio e encaminhamento
 
-# Funcionalidades
+## Categorias consideradas
 
-- Detecção automática de mensagens ofensivas
-- Classificação por nível de risco
-- Identificação de categorias de violência digital
-- Popup de alerta
-- Modo Proteção Emocional
-- Histórico de ocorrências
-- Geração de relatório de evidências
-- Botões de apoio emocional, jurídico e denúncia
+O protótipo trabalha com algumas categorias de violência digital:
 
----
+* Ameaça física
+* Assédio
+* Humilhação emocional
+* Ataque intelectual ou profissional
+* Preconceito e racismo
 
-# Categorias detectadas
+## Algumas telas
 
-- Ameaça física
-- Assédio
-- Humilhação emocional
-- Ataque intelectual/profissional
-- Preconceito e racismo
+### Interface
 
----
+![Interface](screenshots/interface.png)
 
-# Tecnologias utilizadas
+### Reconhecimento da mensagem
 
-- HTML
-- CSS
-- JavaScript
-- Chrome Extension Manifest V3
-- Local Storage
+![Reconhecimento da mensagem](screenshots/reconhecimento%20da%20mensagem.png)
 
----
+### Popup
 
-# Como instalar
+![Popup](screenshots/popup.png)
 
-1. Acesse `chrome://extensions`
-2. Ative o modo desenvolvedor
-3. Clique em “Carregar sem compactação”
-4. Selecione a pasta `extension`
-5. Use a extensão em páginas compatíveis
+### Ações
 
----
+![Ações](screenshots/a%C3%A7%C3%B5es.png)
 
-# Status do projeto
+### Histórico e encaminhamento
 
-Protótipo funcional desenvolvido para apresentação acadêmica.
+![Histórico e encaminhamento](screenshots/hist%C3%B3rico%20e%20encaminhamento.png)
 
----
+### Modo proteção emocional
 
-# Próximas evoluções
+![Modo proteção emocional](screenshots/modo%20prote%C3%A7%C3%A3o%20emocional.png)
 
-- IA contextual
-- Detecção de imagens ofensivas
-- Detecção de áudio e vídeo
-- Relatório em PDF
-- Painel web
-- Análise de reincidência por remetente
+### Demonstração do modo proteção emocional
 
----
+![Demonstração do modo proteção emocional](screenshots/Demonstra%C3%A7%C3%A3o%20do%20modo%20prote%C3%A7%C3%A3o%20emocional.png)
 
-# Demonstração
+## Tecnologias
 
-## Popup de alerta
+* HTML
+* CSS
+* JavaScript
+* Chrome Extension Manifest V3
+* Local Storage
 
-![Popup](screenshots/popup-alerta.png)
+## Como instalar
 
-## Histórico de ocorrências
+Para testar o protótipo:
 
-![Histórico](screenshots/historico.png)
+1. Abra o Google Chrome.
+2. Acesse `chrome://extensions`.
+3. Ative o modo desenvolvedor.
+4. Clique em **Carregar sem compactação**.
+5. Selecione a pasta `extension`.
 
-## Proteção emocional
+## Status
 
-![Proteção](screenshots/protecao-emocional.png)
+O SafeHer é um **protótipo funcional desenvolvido para fins acadêmicos**.
 
----
+Algumas funcionalidades ainda podem ser aprimoradas e novas possibilidades estão previstas para futuras versões.
 
-# Autora
+## Ideias para futuras versões
 
-Andreia Contes
+* Análise contextual utilizando IA
+* Identificação de conteúdo ofensivo em imagens
+* Análise de áudio e vídeo
+* Geração de relatórios em PDF
+* Painel web
+* Histórico mais completo das ocorrências
+* Análise de reincidência
+
+## Sobre o projeto
+
+O SafeHer faz parte dos projetos que desenvolvi durante minha formação em tecnologia, unindo desenvolvimento, interface e uma situação real que poderia ser trabalhada por meio de uma solução digital.
+
+**Andreia Contes**
